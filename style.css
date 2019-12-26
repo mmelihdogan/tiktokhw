@@ -1,0 +1,131 @@
+html, body{
+    font-family: Helvetica;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftNav img{
+    width: 220px;
+    margin-left: 45px;
+}
+
+ul{
+    margin-right: 40px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+section{
+    clear: both;
+    text-align: center;
+}
+
+
+.slogan h2{
+    font-size: 5em;
+    margin-bottom: -10px;
+}
+
+.slogan p{
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.video img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    
+}
+
+.download{
+    width: 100%;
+    
+}
+
+.stores{
+    margin-right: 17%;
+    text-align: center;
+    float: right;
+}
+
+.stores a img{
+    width: 150px;
+}
+
+.downLink{
+   display: inline-block;
+    margin-left: 18%;
+}
+
+.downLink img{
+    width: 450px;
+}
+
+.downLink p{
+    font-size: 10px;
+    text-align: center;
+}
+
+hr{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#lists {
+    clear: both;
+    display: flex;
+}
+
+#lists ul li{
+    list-style-type: none;
+}
+
+#lists ul li a{
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 15px;
+    
+}
+
+#lists h3{
+    font-size: 15px;
+}
+
+#lists img{
+    margin-left: 80px;
+    width: 180px;
+}
+
+.copyRights{
+    display: flex;
+    justify-content: space-between;
+}
+
+#lang{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+#person{
+    margin-right: 60px;
+    margin-bottom: 30px;
+}

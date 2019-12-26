@@ -1,133 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TikTok - Make Your Day</title>
+    <title>Re:Coded</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header>
-        <table width="100%">
-            <tr>
-                <th width="20%"><img src="./img/logo.png" alt="TikTok logo" width="140px"></th>
-                <th width="60%"></th>
-                <th width="20%">
-                    <nav>
-                        <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="./about.html">About</a></li>
-                            <li><a href="./travel.html">Travelling</a></li>
-                            <li><a href="./discover.html">Discover</a></li>
-                            <li>...</li>
-                        </ul>
-                    </nav>    
-                </th>
-            </tr>
-        </table>
+        <div class="leftNav">
+            <a href="#"><img src="./img/logo.png" alt="logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./about.html" target="_blank">About</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <table width="100%">
-            <tr>
-                <center><h1>Make Your Day</h1>
-                <h2>Real People. Real Videos.</h2>
-                </center>
-            </tr>
-            <tr width="100%">
-                <img src="./img/tiktok.gif" width="100%">
-            </tr>
-            <tr>
-                <td width="10%"></td>
-                <td width="25%">
-                    <form>
-                        <label for="phone"><h2>Text yourself a link to download TikTok</h2></label>
-                        <img src="./img/form.png" width="400px">
-                        <p>By clicking the "send" button, you confirm that you agree to our Terms of Use and acknowledge you have read and understood our Privacy Policy</p>
-                    </form>
-                </td>
-                <td width="10%"></td>
-                <td width="25%">
-                    <figure>
-                        <table>
-                            <tr>
-                                <td colspan="3">
-                                    <center><h2>Download Now</h2></center>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img src="img/appstore.png" width="120px">
-                                </td>
-                                <td>
-                                    <img src="img/googlestore.png" width="120px">
-                                </td>
-                                <td>
-                                    <img src="img/amazonstore.png" width="120px">
-                                </td> 
-                            </tr>   
-                        </table>
-                    </figure>
-                </td>
-                <td width="10%"></td>
-            </tr>
-        </table>
-    </main>
-
+    <section>
+        <div class="slogan">
+            <h2>Make Your Day</h2>
+            <p>Real People. Real Videos.</p>
+        </div>
+        <div class="video">
+            <img src="./img/tiktok.gif" alt="tiktok videos">
+        </div>
+    </section>
     <footer>
-        <table>
-            <tr>
-                <td width="10%"></td>
-                <td><img src="./img/logo.png" alt="TikTok logo" width="140px"></td>
-                <td width="20%">
-                    <ul>
-                        <li><p><b>Company</b></p></li>
-                        <li><a href="./about.html">About</a></li>
-                        <li><a href="./newsroom.html">Newsroom</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
-                        <li><a href="./career.html">Careers</a></li>
-                    </ul>
-                </td>
-                <td width="20%">
-                    <ul>
-                        <li><p><b>Programs</b></p></li>
-                        <li><a href="./forgood.html">TikTok for Good</a></li>
-                        <li><a href="./newsroom.html">TikTok for Developers</a></li>
-                        <li><a href="./contact.html">Advertise on TikTok</a></li>
-                    </ul>
-                </td>
-                <td width="20%">
-                    <ul>
-                        <li><p><b>Support</b></p></li>
-                        <li><a href="./forgood.html">Help Center</a></li>
-                        <li><a href="./newsroom.html">Safety Center</a></li>
-                        <li><a href="./contact.html">Community Guidelines</a></li>
-                    </ul>
-                </td>
-                <td width="20%">
-                    <ul>
-                        <li><p><b>Legal</b></p></li>
-                        <li><a href="./forgood.html">Cookies Policy</a></li>
-                        <li><a href="./newsroom.html">Intellectual Property Policy</a></li>
-                        <li><a href="./contact.html">Law Enforcement</a></li>
-                        <li><a href="./contact.html">Privacy Policy</a></li>
-                        <li><a href="./contact.html">Terms of Service</a></li>
-                    </ul>
-                </td>
-                <td width="10%"></td>
-            </tr>
-            <tr>    
-                <td></td>
-                <td>
-                    <select name="language">
-                    <option value ="en">English</option>
-                    <option value ="tr">Türkçe</option>
-                    <option value ="de">Deutsch</option>
-                    </select> 
-                </td>
-                <td colspan="4"></td>
-                <td>© 2019 TikTok</td>
-            </tr>
-        </table>
+        <div class="download">
+            <div class="downLink">
+                <h2>Text yourself a link to download TikTok</h2>
+                <img src="./img/form.png" alt="form">
+                <p>By clicking the "send" button, you confirm that you agree to our Terms of Use and <br /> acknowledge you have read and understood our Privacy Policy</p>
+            </div>
+            <div class="stores">
+                <h2>Download Now</h2>
+                <div>
+                    <a href="https://app.appsflyer.com/id835599320"><img src="./img/appstore.png" alt="App Store"></a>
+                    <a href="https://app.appsflyer.com/com.zhiliaoapp.musically"><img src="./img/googlestore.png" alt="Play Store"></a>
+                    <a href="https://www.amazon.com/dp/B0117U0G3M/"><img src="./img/amazonstore.png" alt="Amazon Store"></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="lists">
+            <div>
+                <img src="./img/logo2.svg" alt="logo">
+            </div>
+            <div>
+                <ul>
+                    <h3>Company</h3>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Newsroom</a></li>
+                    <li><a href="#">Contract</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+
+                <ul>
+                    <h3>Programs</h3>
+                    <li><a href="#">TikTok for Good</a></li>
+                    <li><a href="#">TikTok for Developers</a></li>
+                    <li><a href="#">Advertise on TikTok</a></li>
+                </ul>
+            </div>
+            <div>
+
+                <ul>
+                    <h3>Support</h3>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Safety Center</a></li>
+                    <li><a href="#">Community Guidelines</a></li>
+                </ul>
+            </div>
+            <div>
+
+                <ul>
+                    <h3>Legal</h3>
+                    <li><a href="#">Coockies Policy</a></li>
+                    <li><a href="#">Intellectual Property Policy</a></li>
+                    <li><a href="#">Law Enforcement</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyRights">
+            <p>English</p>
+            <p>&copy; Ammar & Hakan</p>
+        </div>
     </footer>
 </body>
+
 </html>
