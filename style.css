@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 html, body{
     font-family: Helvetica;
     width: 100%;
@@ -12,6 +17,11 @@ header{
 .leftNav img{
     width: 220px;
     margin-left: 45px;
+    padding-top: 20px;
+
+}
+nav{
+    padding-top: 35px;
 }
 
 ul{
@@ -32,6 +42,11 @@ nav li a{
 section{
     clear: both;
     text-align: center;
+}
+
+.slogan {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -57,23 +72,28 @@ footer{
 }
 
 .download{
-    width: 100%;
-    
+    padding-top: 30px;
+    margin: 0 auto;
 }
 
 .stores{
-    margin-right: 17%;
     text-align: center;
     float: right;
+    padding-right: 10%;
 }
 
 .stores a img{
     width: 150px;
+    padding: 10px;
 }
 
 .downLink{
    display: inline-block;
-    margin-left: 18%;
+   padding-left: 10%;
+}
+
+.downLink h2 {
+    padding: 7px;
 }
 
 .downLink img{
@@ -83,6 +103,7 @@ footer{
 .downLink p{
     font-size: 10px;
     text-align: center;
+    padding: 7px;
 }
 
 hr{
@@ -90,9 +111,15 @@ hr{
     margin-bottom: 30px;
 }
 
+
 #lists {
     clear: both;
     display: flex;
+}
+
+#lists ul {
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
 #lists ul li{
@@ -118,6 +145,8 @@ hr{
 .copyRights{
     display: flex;
     justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 50px;
 }
 
 #lang{
@@ -128,4 +157,10 @@ hr{
 #person{
     margin-right: 60px;
     margin-bottom: 30px;
+}
+
+#lang {
+    background-color: black;
+    color: white;
+    border: black;
 }
